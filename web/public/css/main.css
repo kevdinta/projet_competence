@@ -1,0 +1,89 @@
+/* C'est le background de la sidebar */
+#offCanvasRight {
+    background-color: #2c3840;
+}
+/* Lorsqu'on met le pointeur sur les liens du sidebar, la couleur change */
+.menu a {
+    /* espace les liens d'1 px */
+    margin: 1px 0;
+    padding: 8px 20px;
+    color: white;
+    background: #2c3840;
+    text-decoration: none;
+    /* Chrome/Safari */
+    -webkit-transition: all .3s;
+    /* Firefox (plus trop nécessaire) */
+    -moz-transition: all .3s;
+    /* syntaxe officielle */
+    transition: all .3s;
+}
+.off-canvas .close-button span {
+    color:white;
+}
+.menu a:hover {
+    color:white;
+    background: gray;
+    /* Décalage du texte à droite */
+    padding-left: 30px;
+}
+/* Le menu possède une marge extérieure de 20% entre le bouton close et lui-même */
+.menu {
+    margin-top: 20%;
+}
+/* Enlève le contour bleu du close button */
+.close-button  {
+    outline: none;
+}
+/* Enlève le contour bleu des modals */
+.reveal {
+    outline: none;
+}
+.icon {
+    width:15%;
+    height:15%;
+}
+/* On change le background en gris des a href */
+.menu .active>a {
+    background: gray;
+}
+.footer {
+    background: #2c3840;
+    color: #8aa0ae;
+    padding: 2rem 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.footer a {
+    color:#8aa0ae;
+}
+.footer-name {
+    color:white;
+}
+.footer-bottom {
+    background: #020304;
+    padding: 1rem 0;
+}
+.icon_f {
+    width: 10%;
+}
+.img_social img {
+    width: 75px;
+    height: 75px;
+}
+.login {
+    margin-top:5%;
+    border:1px solid #eee;
+}
+.login form {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+}
+.page {
+    text-decoration: underline;
+}
+
+
+

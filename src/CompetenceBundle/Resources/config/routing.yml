@@ -1,0 +1,24 @@
+competence_homepage:
+    path:     /
+    defaults: { _controller: CompetenceBundle:Main:index }
+menu:
+    path:    /
+    defaults: { _controller: CompetenceBundle:Main:menu }
+bilan:
+    path:    /bilan
+    defaults: { _controller: CompetenceBundle:Main:bilan }
+evaluer:
+    path:    /evaluer
+    defaults: { _controller: CompetenceBundle:Main:evaluer }
+creer_epreuve:
+    path:    /creer_epreuve
+    defaults: { _controller: CompetenceBundle:Main:creer_epreuve }
+login:
+    path:    /login
+    defaults: { _controller: CompetenceBundle:Main:login }
+bilan_eleve:
+    path:    /bilan_eleve
+    defaults: { _controller: CompetenceBundle:Main:bilan_eleve }
+ajouter_competence:
+    path:    /ajouter_competence
+    defaults: { _controller: CompetenceBundle:Main:ajouter_competence }

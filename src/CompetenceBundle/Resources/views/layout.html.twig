@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    {% block header %}
+        {% include('CompetenceBundle:Pages:header.html.twig') %}
+    {% endblock %}
+</head>
+<body>
+{% block menu %}
+    {% include('CompetenceBundle:Pages:menus.html.twig') %}
+{% endblock %}
+{% block content %}
+    <div class="row">
+        <div class="large-12 columns">
+        </div>
+    </div>
+{% endblock %}
+{% block footer %}
+    {% include('CompetenceBundle:Pages:footer.html.twig') %}
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="{{ asset('public/js/script.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/plugins/foundation.offcanvas.js"></script>
+    <script src="{{ asset('public/js/foundation-datepicker.min.js') }}"></script>
+    <script src="{{ asset('public/js/foundation-datepicker.fr.js')}}"></script>
+    <script src="{{ asset('public/js/select2.full.min.js') }}"></script>
+    <script src="{{ asset('public/js/jquery-confirm.js') }}"></script>
+    <script src="{{ asset('public/js/jquery.scrollUp.min.js') }}"></script>
+    <script>
+        $(document).foundation();
+        $('.fdatepicker').fdatepicker({
+            language: 'fr',
+            format: 'dd/mm/yyyy'
+        });
+        $('.select2').select2();
+
+        $('.blabla').confirm({
+            title: 'What is up?',
+            content: 'Here goes a little content',
+            type: 'red',
+            buttons: {
+                ok: {
+                    text: "ok!",
+                    keys: ['enter'],
+                    action: function(){
+                        console.log('the user clicked confirm');
+                    }
+                },
+                cancel: function(){
+                    console.log('the user clicked cancel');
+                }
+            }
+        });
+        $(function(){
+            $.scrollUp();
+        });
+    </script>
+{% endblock %}
+</body>
+</html>

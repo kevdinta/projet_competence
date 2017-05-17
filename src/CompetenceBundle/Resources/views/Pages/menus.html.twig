@@ -1,0 +1,37 @@
+<div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas>
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <ul class="vertical menu">
+                <!-- On fait une boucle if pour check la route, si elle correspond, on utilise la classe active qui permet de mettre un background -->
+                <li class="{% if app.request.attributes.get('_route') == 'competence_homepage' %}active{% endif %}"><a href="/"><img src='public/img/svgs/fi-home.svg' class="icon">Accueil</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'bilan' %}active{% endif %}"><a href="/bilan"><img src="public/img/svgs/fi-book-bookmark.svg" class="icon">Bilan</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'bilan_eleve' %}active{% endif %}"><a href="/bilan_eleve"><img src="public/img/svgs/fi-book-bookmark.svg" class="icon">Bilan eleve</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'autoevaluer' %}active{% endif %}"><a href="#"><img src='public/img/svgs/fi-eye.svg' class="icon">S'autoévaluer</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'evaluer' %}active{% endif %}"><a href="/evaluer"><img src='public/img/svgs/fi-book.svg' class="icon">Evaluer</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'creer_epreuve' %}active{% endif %}"><a href="/creer_epreuve"><img src="public/img/svgs/fi-folder-add.svg" class="icon">Créer épreuve</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'ajouter_competence' %}active{% endif %}"><a href="/ajouter_competence"><img src="public/img/svgs/fi-page-add.svg" class="icon">Ajouter compétence</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'deconnexion' %}active{% endif %}"><a href="/login"><img src='public/img/svgs/fi-power.svg' class="icon">Se déconnecter</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="off-canvas-content" data-off-canvas-content>
+        <div class="title-bar">
+            <span id="nom_user">Bonjour User, vous êtes sur la page :</span>
+            {% if app.request.attributes.get('_route') == 'competence_homepage' %}<span class="page">Accueil</span>{% endif %}
+            {% if app.request.attributes.get('_route') == 'bilan' %}<span class="page">Bilan</span>{% endif %}
+            {% if app.request.attributes.get('_route') == 'bilan_eleve' %}<span class="page">Bilan Eleve</span>{% endif %}
+            {% if app.request.attributes.get('_route') == 'autoevaluer' %}<span class="page">S'autoévaluer</span>{% endif %}
+            {% if app.request.attributes.get('_route') == 'evaluer' %}<span class="page">Evaluer</span>{% endif %}
+            {% if app.request.attributes.get('_route') == 'creer_epreuve' %}<span class="page">Créer épreuve</span>{% endif %}
+            {% if app.request.attributes.get('_route') == 'ajouter_competence' %}<span class="page">Ajouter compétence</span>{% endif %}
+            {% if app.request.attributes.get('_route') == 'deconnexion' %}<span class="page">Se déconnecter</span>{% endif %}
+            <div class="title-bar-right">
+                <button class="menu-icon" type="button" data-open="offCanvasRight"></button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,46 @@
+{% extends "CompetenceBundle::layout.html.twig" %}
+{% block content %}
+    <div class="row">
+        <div class="large-12 columns">
+            <br>
+            <h1>Créer une épreuve</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-3 columns">
+                <label>Date :
+                    <input class="fdatepicker" type="text" placeholder="dd/mm/aaaaa">
+                </label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <label>
+                Competences
+                <select class="select2" multiple>
+                    <option selected>T1</option>
+                    <option>T2</option>
+                    <option>X</option>
+                </select>
+            </label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-3 columns">
+            <br>
+            <label>
+                Classe
+                <select class="select2">
+                    <option>Value 1</option>
+                    <option selected>Value 2</option>
+                </select>
+            </label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <br>
+            <button class="blabla button">Envoyer</button>
+        </div>
+    </div>
+{% endblock %}

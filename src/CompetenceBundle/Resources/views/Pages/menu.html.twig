@@ -1,0 +1,9 @@
+<ul class="nav nav-pills nav-stacked">
+    {% for list in listMenu %}
+        <li>
+            <a href="{{ path('menu', {'id': list.id}) }}">
+                {{ list.title }}
+            </a>
+        </li>
+    {% endfor %}
+</ul>
