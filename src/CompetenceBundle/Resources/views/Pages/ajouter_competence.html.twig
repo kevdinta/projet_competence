@@ -25,17 +25,21 @@
             </label>
         </div>
     </div>
+    <br>
     <div class="row">
-        <div class="large-12 columns container_cpt" id="container_cpt">
-            <label>
-                Nom des compétences
-                <input type="text" placeholder="saisir competence" class="autoCreate">
-            </label>
+        <div class="large-12 columns">
+            <button class="button" id="addCpt">Insérer</button>
+            <input type="submit" class="button success button_addCpt" value="Enregistrer">
         </div>
     </div>
     <div class="row">
         <div class="large-12 columns">
-            <input type="submit" class="button" value="Enregistrer">
+                <label>
+                    Nom des compétences
+                    <div id="divCpt" class="columns row">
+                        <input type="text" placeholder="Votre nouvelle compétence..." name="competence[]" id="1">
+                    </div>
+                </label>
         </div>
     </div>
 {% endblock %}

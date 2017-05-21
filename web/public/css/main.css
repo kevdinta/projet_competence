@@ -1,3 +1,13 @@
+/*
+@font-face {
+    font-family: "Optimus Princeps";
+    src: url('../fonts/OptimusPrinceps.ttf');
+}
+h1, p {
+    font-family: "Optimus Princeps";
+}
+*/
+
 /* C'est le background de la sidebar */
 #offCanvasRight {
     background-color: #2c3840;
@@ -50,7 +60,7 @@
     background: #2c3840;
     color: #8aa0ae;
     padding: 2rem 0 0;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
@@ -84,6 +94,31 @@
 .page {
     text-decoration: underline;
 }
+.button_addCpt {
+    color:white !important;
+}
 
+.section {
+    background-size: cover;
+    height: 40vh;
 
+}
+.section .section-text {
+    color: #fefefe;
+    text-shadow: 1px 1px 2px #0a0a0a;
+    text-align: center;
+    padding-top: 5%;
+}
+#accueil {
+    background: url('https://assets.vg247.com/current//2016/02/dark_souls_3_main_art_1.jpg');
+}
+#pave_1 {
+    background-color:rgba(255,255,255, 0.9);
+}
+#pave_2 {
+    background: url('http://cdn3.dualshockers.com/wp-content/uploads/2015/06/Dark_Souls_3_-_E3_artworks_2_1434385865.jpg');
+}
+.card {
+
+}
 

@@ -2,26 +2,21 @@
  * Created by Kevin on 17/05/2017.
  */
 
-function createElement() {
-
-    let tailleMini = 4
-    let text = document.querySelector('.autoCreate')
-    let container = document.querySelector('.container_cpt')
-    text.addEventListener('keyup', () =>  {
-        let taille = document.querySelector('.autoCreate').value
-        if (taille.length == tailleMini)
-        {
-            let input = document.createElement("input")
-            input.type = "text"
-            input.className = "autoCreate"
-            input.id = "1"
-            //alert(taille.length)
-            document.body.appendChild(input, container)
-        }
-
+let inc = 2
+// Au clic de "Add cpt"
+$("#addCpt").click(function() {
+    let elem = $("<input/>",{
+        type: "text",
+        name: "competence[]",
+        id: inc++,
+        placeholder:"Votre nouvelle compétence..."
     })
-}
-
-createElement()
-
-
+    let removeLink = $("<button>").html("Retirer").addClass("button columns row").click(function(){
+        // Supprime l'input text
+        $(elem).remove()
+        // Supprime le bouton supprimer
+        $(this).remove()
+    })
+    // Permet de lier le remove à l'input, mettre le content dans la div divcpt
+    $("#divCpt").append(elem).append(removeLink)
+})
