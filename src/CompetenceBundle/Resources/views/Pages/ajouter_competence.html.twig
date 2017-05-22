@@ -1,45 +1,54 @@
 {% extends "CompetenceBundle::layout.html.twig" %}
 {% block content %}
-    <div class="row">
-        <div class="large-12 columns">
-            <h1>Ajout des compétences</h1>
-        </div>
-        <div class="large-12 columns">
-            <label>
-                Matière :
-                <select class="select2">
-                    <option selected value="valeur_brute">Valeur 1</option>
-                    <option value="v2">Valeur 2</option>
-                </select>
-            </label>
+    <div class="header_page">
+        <div class="row">
+            <div class="section">
+                <div class="section-text">
+                    <h1>Ajout des compétences</h1>
+                    <p>Insérer les nouvelles compétences pour évaluer prochainement lors d'une épreuve ou d'une évaluation simple.</p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="large-12 columns">
-            <label>
-                Sélection groupe de compétence
-                <select class="select2">
-                    <option selected value="valeur_brute">Valeur 1</option>
-                    <option value="v2">Valeur 2</option>
-                </select>
-            </label>
+    <div class="container_page">
+        <div class="row">
+            <div class="large-12 columns">
+                <label>
+                    Matière :
+                    <select class="select2">
+                        <option selected value="valeur_brute">Valeur 1</option>
+                        <option value="v2">Valeur 2</option>
+                    </select>
+                </label>
+            </div>
         </div>
-    </div>
-    <br>
-    <div class="row">
-        <div class="large-12 columns">
-            <button class="button" id="addCpt">Insérer</button>
-            <input type="submit" class="button success button_addCpt" value="Enregistrer">
+        <div class="row">
+            <div class="large-12 columns">
+                <label>
+                    Sélection groupe de compétence
+                    <select class="select2">
+                        <option selected value="valeur_brute">Valeur 1</option>
+                        <option value="v2">Valeur 2</option>
+                    </select>
+                </label>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="large-12 columns">
+        <br>
+        <div class="row">
+            <div class="large-12 columns">
+                <button class="button" id="addCpt">Insérer</button>
+                <input type="submit" class="button success button_addCpt" value="Enregistrer">
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
                 <label>
                     Nom des compétences
                     <div id="divCpt" class="columns row">
                         <input type="text" placeholder="Votre nouvelle compétence..." name="competence[]" id="1">
                     </div>
                 </label>
+            </div>
         </div>
     </div>
 {% endblock %}

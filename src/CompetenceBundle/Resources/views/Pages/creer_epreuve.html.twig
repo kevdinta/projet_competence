@@ -1,46 +1,66 @@
 {% extends "CompetenceBundle::layout.html.twig" %}
 {% block content %}
-    <div class="row">
-        <div class="large-12 columns">
-            <br>
-            <h1>Créer une épreuve</h1>
+    <div class="header_page">
+        <div class="row">
+            <div class="section">
+                <div class="section-text">
+                    <h1>Créer une épreuve</h1>
+                    <p>Cette page consiste à créer une épreuve pour évaluer par la suite les apprenants.</p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="large-3 columns">
+    <div class="container_page">
+        <div class="row" style="margin-top: 2%;">
+            <div class="large-3 columns">
                 <label>Date :
                     <input class="fdatepicker" type="text" placeholder="dd/mm/aaaaa">
                 </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <label>
+                    Competences
+                    <p class="help-text" id="competenceHelpTxt">Cliquez sur le rectangle puis écrivez le nom de la compétence. Ensuite, appuyez sur entrée pour insérer une compétence.</p>
+                    <select class="select2" multiple aria-describedby="competenceHelpTxt">
+                        <option selected>T1</option>
+                        <option>T2</option>
+                        <option>X</option>
+                        <option>T2</option>
+                        <option>X</option>
+                        <option>T2</option>
+                        <option>X</option>
+                        <option>T2</option>
+                        <option>X</option>
+                        <option>T2</option>
+                        <option>X</option>
+                        <option>T2</option>
+                        <option>X</option>
+                        <option>T2</option>
+                        <option>X</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-3 columns">
+                <br>
+                <label>
+                    Classe
+                    <select class="select2">
+                        <option>Value 1</option>
+                        <option selected>Value 2</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <br>
+                <button class="blabla button">Envoyer</button>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="large-12 columns">
-            <label>
-                Competences
-                <select class="select2" multiple>
-                    <option selected>T1</option>
-                    <option>T2</option>
-                    <option>X</option>
-                </select>
-            </label>
-        </div>
-    </div>
-    <div class="row">
-        <div class="large-3 columns">
-            <br>
-            <label>
-                Classe
-                <select class="select2">
-                    <option>Value 1</option>
-                    <option selected>Value 2</option>
-                </select>
-            </label>
-        </div>
-    </div>
-    <div class="row">
-        <div class="large-12 columns">
-            <br>
-            <button class="blabla button">Envoyer</button>
-        </div>
-    </div>
+
 {% endblock %}

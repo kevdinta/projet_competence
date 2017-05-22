@@ -118,7 +118,17 @@ h1, p {
 #pave_2 {
     background: url('http://cdn3.dualshockers.com/wp-content/uploads/2015/06/Dark_Souls_3_-_E3_artworks_2_1434385865.jpg');
 }
-.card {
-
+.header_page {
+    background: url('http://www.avandentertainment.com/wp-content/themes/theme/img/assets/bg/halftone.png');
 }
-
+.container_page {
+    border:1px solid #EEEEEE;
+    margin-top:2%;
+    margin-bottom:2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0 0 10px #555;
+}
+label {
+    font-size: 130%;
+}
