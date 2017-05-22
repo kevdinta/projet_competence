@@ -1,11 +1,32 @@
 {% extends "CompetenceBundle::layout.html.twig" %}
 {% block content %}
-    <div class="row">
-        <h1>Evaluer</h1>
-    </div>
-    <div class="row">
-        <div class="large-12 columns">
-
+    <div class="header_page">
+        <div class="row">
+            <div class="section">
+                <div class="section-text">
+                    <h1>Evaluer avec épreuve</h1>
+                    <p>Cette page permet d'évaluer des apprenants sur une épreuve créée au préalable.</p>
+                </div>
+            </div>
         </div>
     </div>
+            <div class="container_page">
+                <div class="row">
+                    <div class="large-5 columns">
+                        <label>
+                            Choisissez une épreuve *
+                            <p class="help-text" id="epreuveHelpTxt">A la sélection, génère le bloc d'évaluation.</p>
+                            <select id="epreuve" required aria-describedby="epreuveHelpTxt">
+                                <option value=""></option>
+                                <option value="BTS_SN">BTS SN</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-12 columns" id="bloc_eval" style="display: none;">
+                        <p>BLOC D'EVALUATION A REALISER J'AI LA FLEMME POUR L'INSTANT.</p>
+                    </div>
+                </div>
+            </div>
 {% endblock %}

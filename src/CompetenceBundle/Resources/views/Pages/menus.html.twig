@@ -4,10 +4,10 @@
             <button class="close-button" aria-label="Close menu" type="button" data-close>
                 <span aria-hidden="true">&times;</span>
             </button>
-            <ul class="vertical menu">
+            <ul class="vertical menu" >
                 <!-- On fait une boucle if pour check la route, si elle correspond, on utilise la classe active qui permet de mettre un background -->
                 <li class="{% if app.request.attributes.get('_route') == 'competence_homepage' %}active{% endif %}"><a href="/"><img src='public/img/svgs/fi-home.svg' class="icon">Accueil</a></li>
-                <li class="{% if app.request.attributes.get('_route') == 'bilan' %}active{% endif %}"><a href="/bilan"><img src="public/img/svgs/fi-book-bookmark.svg" class="icon">Bilan</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'bilan' %}active{% endif %}"><a href="/bilan"><img src="public/img/svgs/fi-book-bookmark.svg" class="icon">Bilan Prof</a></li>
                 <li class="{% if app.request.attributes.get('_route') == 'bilan_eleve' %}active{% endif %}"><a href="/bilan_eleve"><img src="public/img/svgs/fi-book-bookmark.svg" class="icon">Bilan eleve</a></li>
                 <li class="{% if app.request.attributes.get('_route') == 'autoevaluer' %}active{% endif %}"><a href="#"><img src='public/img/svgs/fi-eye.svg' class="icon">S'autoévaluer</a></li>
                 <li class="{% if app.request.attributes.get('_route') == 'evaluer' %}active{% endif %}"><a href="/evaluer"><img src='public/img/svgs/fi-book.svg' class="icon">Evaluer</a></li>
@@ -21,7 +21,7 @@
         <div class="title-bar">
             <span id="nom_user">Bonjour User, vous êtes sur la page :</span>
             {% if app.request.attributes.get('_route') == 'competence_homepage' %}<span class="page">Accueil</span>{% endif %}
-            {% if app.request.attributes.get('_route') == 'bilan' %}<span class="page">Bilan</span>{% endif %}
+            {% if app.request.attributes.get('_route') == 'bilan' %}<span class="page">Bilan Prof</span>{% endif %}
             {% if app.request.attributes.get('_route') == 'bilan_eleve' %}<span class="page">Bilan Eleve</span>{% endif %}
             {% if app.request.attributes.get('_route') == 'autoevaluer' %}<span class="page">S'autoévaluer</span>{% endif %}
             {% if app.request.attributes.get('_route') == 'evaluer' %}<span class="page">Evaluer</span>{% endif %}
