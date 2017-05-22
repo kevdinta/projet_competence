@@ -5,8 +5,292 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df9b875e-1c36-483a-a30c-1977ddc2493e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-address-book.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-alert.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-align-center.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-align-justify.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-align-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-align-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-anchor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-annotate.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-archive.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-arrow-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-arrow-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-arrow-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-arrow-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-arrows-compress.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-arrows-expand.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-arrows-in.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-arrows-out.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-asl.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-asterisk.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-at-sign.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-background-color.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-battery-empty.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-battery-full.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-battery-half.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-bitcoin-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-bitcoin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-blind.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-bluetooth.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-bold.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-book-bookmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-book.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-bookmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-braille.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-burst-new.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-burst-sale.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-burst.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-calendar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-camera.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-check.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-checkbox.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-clipboard-notes.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-clipboard-pencil.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-clipboard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-clock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-closed-caption.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-comment-minus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-comment-quotes.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-comment-video.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-comment.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-comments.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-compass.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-contrast.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-credit-card.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-crop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-crown.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-css3.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-database.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-die-five.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-die-four.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-die-one.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-die-six.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-die-three.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-die-two.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-dislike.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-dollar-bill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-dollar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-download.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-eject.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-elevator.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-euro.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-eye.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-fast-forward.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-female-symbol.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-female.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-filter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-first-aid.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-flag.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-folder-add.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-folder-lock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-folder.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-foot.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-foundation.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-graph-bar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-graph-horizontal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-graph-pie.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-graph-trend.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-guide-dog.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-hearing-aid.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-heart.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-home.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-html5.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-indent-less.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-indent-more.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-info.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-key.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-laptop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-layout.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-lightbulb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-like.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-link.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-list-bullet.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-list-number.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-list-thumbnails.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-list.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-lock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-loop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-magnifying-glass.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-mail.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-male-female.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-male-symbol.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-male.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-map.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-marker.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-megaphone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-microphone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-minus-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-minus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-mobile-signal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-mobile.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-monitor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-mountains.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-music.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-next.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-no-dogs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-no-smoking.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page-add.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page-copy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page-csv.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page-delete.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page-doc.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page-edit.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page-export-csv.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page-export-doc.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page-export-pdf.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page-export.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page-filled.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page-multiple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page-pdf.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page-remove.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page-search.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-page.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-paint-bucket.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-paperclip.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-pause.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-paw.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-paypal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-pencil.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-photo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-play-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-play-video.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-play.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-plus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-pound.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-power.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-previous.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-price-tag.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-pricetag-multiple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-print.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-prohibited.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-projection-screen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-puzzle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-quote.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-record.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-refresh.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-results-demographics.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-results.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-rewind-ten.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-rewind.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-rss.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-safety-cone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-save.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-share.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-sheriff-badge.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-shield.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-shopping-bag.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-shopping-cart.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-shuffle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-skull.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-500px.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-adobe.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-amazon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-android.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-apple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-behance.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-bing.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-blogger.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-delicious.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-designer-news.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-deviant-art.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-digg.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-dribbble.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-drive.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-dropbox.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-evernote.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-facebook.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-flickr.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-forrst.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-foursquare.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-game-center.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-github.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-google-plus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-hacker-news.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-hi5.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-instagram.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-joomla.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-lastfm.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-linkedin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-medium.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-myspace.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-orkut.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-path.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-picasa.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-pinterest.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-rdio.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-reddit.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-skillshare.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-skype.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-smashing-mag.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-snapchat.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-spotify.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-squidoo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-stack-overflow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-steam.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-stumbleupon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-treehouse.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-tumblr.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-twitter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-vimeo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-windows.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-xbox.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-yahoo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-yelp.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-youtube.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-zerply.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-social-zurb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-sound.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-star.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-stop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-strikethrough.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-subscript.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-superscript.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-tablet-landscape.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-tablet-portrait.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-target-two.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-target.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-telephone-accessible.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-telephone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-text-color.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-thumbnails.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-ticket.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-torso-business.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-torso-female.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-torso.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-torsos-all-female.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-torsos-all.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-torsos-female-male.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-torsos-male-female.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-torsos.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-trash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-trees.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-trophy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-underline.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-universal-access.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-unlink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-unlock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-upload-cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-upload.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-usb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-video.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-volume-none.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-volume-strike.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-volume.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-web.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-wheelchair.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-widget.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-wrench.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-x-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-x.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-yen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-zoom-in.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/public/img/svgs/fi-zoom-out.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig" afterPath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/footer.html.twig" afterPath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/footer.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/menus.html.twig" afterPath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/menus.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,15 +312,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
+            <state relative-caret-position="430">
               <caret line="72" column="43" lean-forward="false" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
               <folding>
                 <element signature="e#2580#2600#0#HTML" expanded="true" />
                 <element signature="e#5919#5959#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/footer.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="33" column="70" lean-forward="false" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menus.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/menus.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="166" lean-forward="false" selection-start-line="15" selection-start-column="166" selection-end-line="15" selection-end-column="166" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,16 +390,16 @@
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Controller/MainController.php" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/ajouter_competence.html.twig" />
-        <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/footer.html.twig" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/header.html.twig" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/bilan_eleve.html.twig" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/web/public/css/bars-movie.css" />
-        <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/menus.html.twig" />
         <option value="$PROJECT_DIR$/web/public/css/main.css" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/evaluer.html.twig" />
         <option value="$PROJECT_DIR$/web/public/js/script.js" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/footer.html.twig" />
+        <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/menus.html.twig" />
       </list>
     </option>
   </component>
@@ -598,7 +902,7 @@
       <workItem from="1495099518915" duration="4949000" />
       <workItem from="1495105867167" duration="74000" />
       <workItem from="1495376276146" duration="14636000" />
-      <workItem from="1495452108177" duration="12306000" />
+      <workItem from="1495452108177" duration="13563000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE 21/05/2017">
       <created>1495396598842</created>
@@ -642,17 +946,23 @@
       <option name="project" value="LOCAL" />
       <updated>1495464314751</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Accueil modifié">
+      <created>1495464426774</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1495464426774</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104025000" />
+    <option name="totallyTimeSpent" value="105282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23134328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23134328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -932,14 +1242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/header.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -952,14 +1254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/menus.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1024,12 +1318,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="430">
           <caret line="72" column="43" lean-forward="false" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
           <folding>
             <element signature="e#2580#2600#0#HTML" expanded="true" />
             <element signature="e#5919#5959#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="33" column="70" lean-forward="false" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/menus.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="166" lean-forward="false" selection-start-line="15" selection-start-column="166" selection-end-line="15" selection-end-column="166" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -6,14 +6,14 @@
             </button>
             <ul class="vertical menu" >
                 <!-- On fait une boucle if pour check la route, si elle correspond, on utilise la classe active qui permet de mettre un background -->
-                <li class="{% if app.request.attributes.get('_route') == 'competence_homepage' %}active{% endif %}"><a href="/"><img src='public/img/svgs/fi-home.svg' class="icon">Accueil</a></li>
-                <li class="{% if app.request.attributes.get('_route') == 'bilan' %}active{% endif %}"><a href="/bilan"><img src="public/img/svgs/fi-book-bookmark.svg" class="icon">Bilan Prof</a></li>
-                <li class="{% if app.request.attributes.get('_route') == 'bilan_eleve' %}active{% endif %}"><a href="/bilan_eleve"><img src="public/img/svgs/fi-book-bookmark.svg" class="icon">Bilan eleve</a></li>
-                <li class="{% if app.request.attributes.get('_route') == 'autoevaluer' %}active{% endif %}"><a href="#"><img src='public/img/svgs/fi-eye.svg' class="icon">S'autoévaluer</a></li>
-                <li class="{% if app.request.attributes.get('_route') == 'evaluer' %}active{% endif %}"><a href="/evaluer"><img src='public/img/svgs/fi-book.svg' class="icon">Evaluer</a></li>
-                <li class="{% if app.request.attributes.get('_route') == 'creer_epreuve' %}active{% endif %}"><a href="/creer_epreuve"><img src="public/img/svgs/fi-folder-add.svg" class="icon">Créer épreuve</a></li>
-                <li class="{% if app.request.attributes.get('_route') == 'ajouter_competence' %}active{% endif %}"><a href="/ajouter_competence"><img src="public/img/svgs/fi-page-add.svg" class="icon">Ajouter compétence</a></li>
-                <li class="{% if app.request.attributes.get('_route') == 'deconnexion' %}active{% endif %}"><a href="/login"><img src='public/img/svgs/fi-power.svg' class="icon">Se déconnecter</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'competence_homepage' %}active{% endif %}"><a href="/"><i class='fa fa-2x fa-home icon'></i>Accueil</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'bilan' %}active{% endif %}"><a href="/bilan"><i class="fa fa-2x fa-book icon"></i>Bilan Prof</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'bilan_eleve' %}active{% endif %}"><a href="/bilan_eleve"><i class="fa fa-2x fa-bookmark icon"></i>Bilan Eleve</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'autoevaluer' %}active{% endif %}"><a href="#"><i class='fa fa-2x fa-eye icon'></i>S'autoévaluer</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'evaluer' %}active{% endif %}"><a href="/evaluer"><i class="fa fa-2x fa-address-book icon"></i>Evaluer</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'creer_epreuve' %}active{% endif %}"><a href="/creer_epreuve"><i class="fa fa-2x fa-folder-open-o"></i>Créer épreuve</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'ajouter_competence' %}active{% endif %}"><a href="/ajouter_competence"><i class="fa fa-2x fa-file-code-o icon"></i>Ajouter compétence</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'deconnexion' %}active{% endif %}"><a href="/login"><i class="fa fa-2x fa-sign-out icon"></i>Se déconnecter</a></li>
             </ul>
         </div>
     </div>
