@@ -10,34 +10,59 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="large-12 columns">
-            <table id="data_bilan_eleve">
-                <thead style="width:400px;">
-                <tr>
-                    <th>Nom de la compétence</th>
-                    <th>Note</th>
-                    <th>Autoévaluation</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>Compétence 1</td>
-                    <td style="background: red; width: 200px;"></td>
-                    <td style="background: green; width: 200px;"></td>
-                </tr>
-                <tr>
-                    <td>Content Goes Here</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Content Goes Here</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                </tbody>
-            </table>
+    <div class="container_page">
+        <div class="row">
+            <div class="input-group">
+                <br>
+                <input type="search" id="search" placeholder="Rechercher..."></input>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <table id="data_bilan_eleve">
+                    <thead>
+                    <tr>
+                        <th>Nom de la compétence</th>
+                        <th>Note</th>
+                        <th>Autoévaluation</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Maitriser les bases Visual Basic</td>
+                        <td>
+                            <select id="example">
+                                <option value="1">A chier</option>
+                                <option value="2">Toujours nul</option>
+                                <option value="3">Potable</option>
+                                <option value="4">Cool</option>
+                                <option value="5">Dieu</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select id="example2">
+                                <option value="1">A chier</option>
+                                <option value="2">Toujours nul</option>
+                                <option value="3">Potable</option>
+                                <option value="4">Cool</option>
+                                <option value="5">Dieu</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Notions d'héritage en Java</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Serialisation en C#</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
+
 {% endblock %}

@@ -57,6 +57,17 @@
             $.scrollUp();
         });
     </script>
+    <script src="{{ asset('public/js/jquery.barrating.min.js') }}"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('#example').barrating({
+                theme: 'bars-movie'
+            });
+            $('#example2').barrating({
+                theme: 'bars-movie'
+            });
+        });
+    </script>
 {% endblock %}
 </body>
 </html>

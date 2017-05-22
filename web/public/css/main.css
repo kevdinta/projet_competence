@@ -132,3 +132,16 @@ h1, p {
 label {
     font-size: 130%;
 }
+th {
+    color:white;
+    padding: 2% !important;
+}
+thead {
+    background:black !important;
+}
+td:nth-child(2), td:nth-child(3) {
+    width: 32%;
+}
+td {
+    padding: 2% !important;
+}
