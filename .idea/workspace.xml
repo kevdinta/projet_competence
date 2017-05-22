@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df9b875e-1c36-483a-a30c-1977ddc2493e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig" afterPath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +31,8 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+            <state relative-caret-position="532">
+              <caret line="72" column="43" lean-forward="false" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
               <folding>
                 <element signature="e#2580#2600#0#HTML" expanded="true" />
                 <element signature="e#5919#5959#0#HTML" expanded="true" />
@@ -597,7 +598,7 @@
       <workItem from="1495099518915" duration="4949000" />
       <workItem from="1495105867167" duration="74000" />
       <workItem from="1495376276146" duration="14636000" />
-      <workItem from="1495452108177" duration="12188000" />
+      <workItem from="1495452108177" duration="12306000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE 21/05/2017">
       <created>1495396598842</created>
@@ -634,11 +635,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495464291328</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Accueil modifié">
+      <created>1495464314751</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1495464314751</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103907000" />
+    <option name="totallyTimeSpent" value="104025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -674,7 +682,8 @@
     <MESSAGE value="UPDATE 21/05/2017" />
     <MESSAGE value="&#10;22/05/2017 : Design OK Accueil, Bilan élève, créer épreuve, ajout des compétences." />
     <MESSAGE value="Inclusion de script pour search, exécuter les bonnes fonctions quand on trouve l'id correspondant et fonction simple pour display une div." />
-    <option name="LAST_COMMIT_MESSAGE" value="Inclusion de script pour search, exécuter les bonnes fonctions quand on trouve l'id correspondant et fonction simple pour display une div." />
+    <MESSAGE value="Accueil modifié" />
+    <option name="LAST_COMMIT_MESSAGE" value="Accueil modifié" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1015,8 +1024,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+        <state relative-caret-position="532">
+          <caret line="72" column="43" lean-forward="false" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
           <folding>
             <element signature="e#2580#2600#0#HTML" expanded="true" />
             <element signature="e#5919#5959#0#HTML" expanded="true" />
