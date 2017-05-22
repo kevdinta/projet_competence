@@ -61,5 +61,3 @@ $(function () // on document.ready() - Execute la boucle if quand la page entiè
         DisplayBloc()
     }
 })
-
-

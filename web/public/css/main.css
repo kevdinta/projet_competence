@@ -145,3 +145,6 @@ td:nth-child(2), td:nth-child(3) {
 td {
     padding: 2% !important;
 }
+.fade {
+    opacity: 1;
+}
