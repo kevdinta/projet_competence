@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df9b875e-1c36-483a-a30c-1977ddc2493e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/evaluer.html.twig" afterPath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/evaluer.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/menus.html.twig" afterPath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/menus.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/css/main.css" afterPath="$PROJECT_DIR$/web/public/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/js/script.js" afterPath="$PROJECT_DIR$/web/public/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig" afterPath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,23 +18,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/public/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+            <state relative-caret-position="681">
+              <caret line="60" column="21" lean-forward="false" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="evaluer.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/evaluer.html.twig">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="86" lean-forward="false" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="86" />
+            <state relative-caret-position="515">
+              <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
               <folding>
-                <element signature="e#1199#1221#0#HTML" expanded="true" />
+                <element signature="e#2580#2600#0#HTML" expanded="true" />
+                <element signature="e#5919#5959#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,7 +87,6 @@
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Controller/MainController.php" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/ajouter_competence.html.twig" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/footer.html.twig" />
-        <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/header.html.twig" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/bilan_eleve.html.twig" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/layout.html.twig" />
@@ -98,6 +95,7 @@
         <option value="$PROJECT_DIR$/web/public/css/main.css" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/evaluer.html.twig" />
         <option value="$PROJECT_DIR$/web/public/js/script.js" />
+        <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig" />
       </list>
     </option>
   </component>
@@ -115,9 +113,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="832" />
-    <option name="width" value="1095" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -599,7 +598,7 @@
       <workItem from="1495099518915" duration="4949000" />
       <workItem from="1495105867167" duration="74000" />
       <workItem from="1495376276146" duration="14636000" />
-      <workItem from="1495452108177" duration="9808000" />
+      <workItem from="1495452108177" duration="12172000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE 21/05/2017">
       <created>1495396598842</created>
@@ -622,17 +621,24 @@
       <option name="project" value="LOCAL" />
       <updated>1495457933018</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Inclusion de script pour search, exécuter les bonnes fonctions quand on trouve l'id correspondant et fonction simple pour display une div.">
+      <created>1495461974848</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1495461974848</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101527000" />
+    <option name="totallyTimeSpent" value="103891000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="832" y="0" width="1095" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41932368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23134328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -661,7 +667,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="UPDATE 21/05/2017" />
     <MESSAGE value="&#10;22/05/2017 : Design OK Accueil, Bilan élève, créer épreuve, ajout des compétences." />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;22/05/2017 : Design OK Accueil, Bilan élève, créer épreuve, ajout des compétences." />
+    <MESSAGE value="Inclusion de script pour search, exécuter les bonnes fonctions quand on trouve l'id correspondant et fonction simple pour display une div." />
+    <option name="LAST_COMMIT_MESSAGE" value="Inclusion de script pour search, exécuter les bonnes fonctions quand on trouve l'id correspondant et fonction simple pour display une div." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -918,14 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="53" lean-forward="false" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/header.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1002,9 +1001,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/public/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        <state relative-caret-position="681">
+          <caret line="60" column="21" lean-forward="false" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+          <folding>
+            <element signature="e#2580#2600#0#HTML" expanded="true" />
+            <element signature="e#5919#5959#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
