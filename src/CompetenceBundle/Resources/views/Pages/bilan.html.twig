@@ -1,45 +1,75 @@
 {% extends "CompetenceBundle::layout.html.twig" %}
 {% block content %}
-    <div class="row">
-        <div class="large-3 columns">
-            <br>
-            <label>
-                Choisissez une épreuve :
-                <select class="select2">
-                    <option selected>Epreuve 1</option>
-                    <option>Epreuve 2</option>
-                </select>
-            </label>
+    <div class="header_page">
+        <div class="row">
+            <div class="section">
+                <div class="section-text">
+                    <h1>Bilan des étudiants</h1>
+                    <p>Cette page permet de suivre la progression de vos apprenants.</p>
+                </div>
+            </div>
         </div>
-        <div class="large-3 columns">
-            <br>
-            <label>
-                Choisissez une épreuve :
-                <select class="select2">
-                    <option selected>Epreuve 1</option>
-                    <option>Epreuve 2</option>
-                </select>
-            </label>
+    </div>
+    <div class="container_page">
+        <div class="row">
+            <div class="large-5 columns">
+                <label>
+                    Choisissez une épreuve *
+                    <p class="help-text" id="epreuveHelpTxt">A la sélection, génère un tableau pour chaque étudiant.</p>
+                    <select id="epreuve" required aria-describedby="epreuveHelpTxt">
+                        <option value=""></option>
+                        <option value="BTS_SN">BTS SN</option>
+                    </select>
+                </label>
+            </div>
         </div>
-        <div class="large-3 columns">
-            <br>
-            <label>
-                Choisissez une épreuve :
-                <select class="select2">
-                    <option selected>Epreuve 1</option>
-                    <option>Epreuve 2</option>
-                </select>
-            </label>
-        </div>
-        <div class="large-3 columns">
-            <br>
-            <label>
-                Choisissez une épreuve :
-                <select class="select2">
-                    <option selected>Epreuve 1</option>
-                    <option>Epreuve 2</option>
-                </select>
-            </label>
+        <div class="row">
+            <div class="large-12 columns" id="bloc_eval" style="display: none;">
+                <!-- Mettre un include ici de ton code pour afficher les valeurs figurant dans la database. Là, le nom de l'étudiant et les notes qui lui sont liées -->
+                <p>@Etudiant_1</p>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Nom de la compétence</th>
+                        <th>Note</th>
+                        <th>Autoévaluation</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Maitriser les bases Visual Basic</td>
+                        <td>
+                            <select id="example">
+                                <option value="1">A chier</option>
+                                <option value="2">Toujours nul</option>
+                                <option value="3">Potable</option>
+                                <option value="4">Cool</option>
+                                <option value="5">Dieu</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select id="example2">
+                                <option value="1">A chier</option>
+                                <option value="2">Toujours nul</option>
+                                <option value="3">Potable</option>
+                                <option value="4">Cool</option>
+                                <option value="5">Dieu</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Notions d'héritage en Java</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Serialisation en C#</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 {% endblock %}
