@@ -4,10 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/layout.html.twig" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df9b875e-1c36-483a-a30c-1977ddc2493e" name="Default" comment="text">
+    <list default="true" id="df9b875e-1c36-483a-a30c-1977ddc2493e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/login.html.twig" afterPath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/login.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/css/main.css" afterPath="$PROJECT_DIR$/web/public/css/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,24 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="544">
               <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="51">
+              <caret line="3" column="121" lean-forward="false" selection-start-line="3" selection-start-column="121" selection-end-line="3" selection-end-column="121" />
               <folding>
-                <element signature="e#111#195#0#HTML" expanded="true" />
-                <element signature="e#1080#1102#0#HTML" expanded="true" />
+                <element signature="e#1112#1134#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,8 +157,8 @@
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/evaluer.html.twig" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/bilan_eleve.html.twig" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/autoevaluer.html.twig" />
-        <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/login.html.twig" />
         <option value="$PROJECT_DIR$/web/public/css/main.css" />
+        <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/login.html.twig" />
       </list>
     </option>
   </component>
@@ -648,7 +646,7 @@
       <workItem from="1495452108177" duration="13597000" />
       <workItem from="1495475713056" duration="2247000" />
       <workItem from="1495526060908" duration="4983000" />
-      <workItem from="1495543283216" duration="1434000" />
+      <workItem from="1495543283216" duration="1611000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE 21/05/2017">
       <created>1495396598842</created>
@@ -727,11 +725,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495543377718</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="text">
+      <created>1495544721368</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1495544721368</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113980000" />
+    <option name="totallyTimeSpent" value="114157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1085,22 +1090,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/login.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="e#111#195#0#HTML" expanded="true" />
-            <element signature="e#1080#1102#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="544">
+          <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/public/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="51">
+          <caret line="3" column="121" lean-forward="false" selection-start-line="3" selection-start-column="121" selection-end-line="3" selection-end-column="121" />
+          <folding>
+            <element signature="e#1112#1134#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
