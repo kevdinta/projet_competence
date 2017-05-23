@@ -22,3 +22,6 @@ bilan_eleve:
 ajouter_competence:
     path:    /ajouter_competence
     defaults: { _controller: CompetenceBundle:Main:ajouter_competence }
+autoevaluer:
+    path:    /autoevaluer
+    defaults: { _controller: CompetenceBundle:Main:auto_evaluation }
