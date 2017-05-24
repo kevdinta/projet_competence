@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="df9b875e-1c36-483a-a30c-1977ddc2493e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/footer.html.twig" afterPath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/footer.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig" afterPath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/login.html.twig" afterPath="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/login.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/css/main.css" afterPath="$PROJECT_DIR$/web/public/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/js/script.js" afterPath="$PROJECT_DIR$/web/public/js/script.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,55 +22,34 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/public/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="evaluer.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/evaluer.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bilan.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/bilan.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="71" column="18" lean-forward="false" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-              <folding>
-                <marker date="1495500310000" expanded="true" signature="3102:3117" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="1462">
               <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="121" lean-forward="false" selection-start-line="3" selection-start-column="121" selection-end-line="3" selection-end-column="121" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="50" />
               <folding>
-                <element signature="e#1112#1134#0#HTML" expanded="true" />
+                <marker date="1495647380113" expanded="true" signature="82:1387" ph="{% block content ...%}" />
+                <marker date="1495647380113" expanded="true" signature="150:1360" ph="..." />
+                <marker date="1495647380113" expanded="true" signature="207:1345" ph="..." />
+                <marker date="1495647380113" expanded="true" signature="243:1326" ph="..." />
+                <marker date="1495647380113" expanded="true" signature="295:1303" ph="..." />
+                <marker date="1495647380113" expanded="true" signature="327:444" ph="..." />
+                <marker date="1495647380113" expanded="true" signature="476:596" ph="..." />
+                <marker date="1495647380113" expanded="true" signature="729:1275" ph="..." />
+                <marker date="1495647380113" expanded="true" signature="787:910" ph="..." />
+                <marker date="1495647380113" expanded="true" signature="968:1244" ph="..." />
+                <marker date="1495647380113" expanded="false" signature="1016:1030" ph="..." />
+                <marker date="1495647380113" expanded="true" signature="1031:1209" ph="..." />
               </folding>
             </state>
           </provider>
@@ -82,21 +65,92 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="footer.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/footer.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="54" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="9" />
+              <folding>
+                <marker date="1495611570133" expanded="true" signature="29:3657" ph="..." />
+                <marker date="1495611570133" expanded="true" signature="66:3435" ph="..." />
+                <marker date="1495611570133" expanded="true" signature="105:2133" ph="..." />
+                <marker date="1495611570133" expanded="true" signature="223:1043" ph="..." />
+                <marker date="1495611570133" expanded="true" signature="938:1024" ph="..." />
+                <marker date="1495611570133" expanded="false" signature="985:992" ph="×" />
+                <marker date="1495611570133" expanded="true" signature="1172:2001" ph="..." />
+                <marker date="1495611570133" expanded="true" signature="1896:1982" ph="..." />
+                <marker date="1495611570133" expanded="false" signature="1943:1950" ph="×" />
+                <marker date="1495611570133" expanded="true" signature="2172:2753" ph="..." />
+                <marker date="1495611570133" expanded="true" signature="2279:2410" ph="..." />
+                <marker date="1495611570133" expanded="true" signature="2464:2570" ph="..." />
+                <marker date="1495611570133" expanded="true" signature="2624:2738" ph="..." />
+                <marker date="1495611570133" expanded="true" signature="2792:3424" ph="..." />
+                <marker date="1495611570133" expanded="true" signature="2901:3409" ph="..." />
+                <marker date="1495611570133" expanded="true" signature="2951:3129" ph="..." />
+                <marker date="1495611570133" expanded="true" signature="3179:3390" ph="..." />
+                <marker date="1495611570133" expanded="true" signature="3467:3647" ph="..." />
+                <marker date="1495611570133" expanded="true" signature="3520:3636" ph="..." />
+                <marker date="1495611570133" expanded="true" signature="3553:3621" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/header.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error404.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="73" lean-forward="false" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/menu.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menus.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/menus.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Controller/MainController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
+            <state relative-caret-position="935">
               <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/config/routing.yml">
+      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -144,7 +198,6 @@
         <option value="$PROJECT_DIR$/web/public/js/jquery.scrollUp.min.js" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/creer_epreuve.html.twig" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/ajouter_competence.html.twig" />
-        <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/header.html.twig" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/web/public/css/bars-movie.css" />
         <option value="$PROJECT_DIR$/web/public/js/script.js" />
@@ -157,8 +210,12 @@
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/evaluer.html.twig" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/bilan_eleve.html.twig" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/autoevaluer.html.twig" />
-        <option value="$PROJECT_DIR$/web/public/css/main.css" />
         <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/login.html.twig" />
+        <option value="$PROJECT_DIR$/web/public/css/main.css" />
+        <option value="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error.html.twig" />
+        <option value="$PROJECT_DIR$/web/app_dev.php" />
+        <option value="$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/header.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig" />
       </list>
     </option>
   </component>
@@ -220,90 +277,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projet_competence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projet_competence" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projet_competence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projet_competence" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projet_competence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projet_competence" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projet_competence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projet_competence" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,7 +484,45 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_competence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_competence" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TwigBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exception" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,15 +539,17 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\projet_competence\src\CompetenceBundle\Resources\views\Pages" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\projet_competence\app\Resources\views" />
+      <recent name="C:\wamp\www\projet_competence\app\Resources\TwigBundle\views\Exception" />
+      <recent name="C:\wamp\www\projet_competence\app\Resources\TwigBundle" />
       <recent name="C:\wamp\www\projet_competence\web\public\fonts" />
       <recent name="C:\wamp\www\projet_competence\web\public\css" />
-      <recent name="C:\wamp\www\projet_competence\web\public\img" />
-      <recent name="C:\wamp\www\projet_competence\web" />
-      <recent name="C:\wamp\www\projet_competence\src\CompetenceBundle\Resources\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\projet_competence\app\Resources\views" />
+      <recent name="C:\wamp\www\projet_competence\app\Resources\TwigBundle\views\Exception" />
+      <recent name="C:\wamp\www\projet_competence\src\CompetenceBundle\Resources\views\Pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -646,7 +659,9 @@
       <workItem from="1495452108177" duration="13597000" />
       <workItem from="1495475713056" duration="2247000" />
       <workItem from="1495526060908" duration="4983000" />
-      <workItem from="1495543283216" duration="1611000" />
+      <workItem from="1495543283216" duration="2113000" />
+      <workItem from="1495553882019" duration="2508000" />
+      <workItem from="1495648247960" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE 21/05/2017">
       <created>1495396598842</created>
@@ -732,17 +747,24 @@
       <option name="project" value="LOCAL" />
       <updated>1495544721368</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="text">
+      <created>1495544897919</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1495544897919</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114157000" />
+    <option name="totallyTimeSpent" value="117179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23614073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24147122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -782,36 +804,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Controller/MainController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="67" lean-forward="false" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -907,7 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig" />
     <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -944,15 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,20 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/header.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/menu.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1009,26 +976,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/menus.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="129" lean-forward="false" selection-start-line="11" selection-start-column="129" selection-end-line="11" selection-end-column="129" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="33" column="70" lean-forward="false" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/public/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,25 +987,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/bilan.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
+        <state relative-caret-position="1207">
           <caret line="71" column="18" lean-forward="false" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-          <folding>
-            <marker date="1495500310000" expanded="true" signature="3102:3117" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/bilan_eleve.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/autoevaluer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Controller/MainController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
+        <state relative-caret-position="935">
           <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="50" />
+          <folding>
+            <marker date="1495647380113" expanded="true" signature="82:1387" ph="{% block content ...%}" />
+            <marker date="1495647380113" expanded="true" signature="150:1360" ph="..." />
+            <marker date="1495647380113" expanded="true" signature="207:1345" ph="..." />
+            <marker date="1495647380113" expanded="true" signature="243:1326" ph="..." />
+            <marker date="1495647380113" expanded="true" signature="295:1303" ph="..." />
+            <marker date="1495647380113" expanded="true" signature="327:444" ph="..." />
+            <marker date="1495647380113" expanded="true" signature="476:596" ph="..." />
+            <marker date="1495647380113" expanded="true" signature="729:1275" ph="..." />
+            <marker date="1495647380113" expanded="true" signature="787:910" ph="..." />
+            <marker date="1495647380113" expanded="true" signature="968:1244" ph="..." />
+            <marker date="1495647380113" expanded="false" signature="1016:1030" ph="..." />
+            <marker date="1495647380113" expanded="true" signature="1031:1209" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,45 +1092,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/bilan_eleve.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/header.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig" />
+    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/footer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="918">
+          <caret line="54" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="9" />
+          <folding>
+            <marker date="1495611570133" expanded="true" signature="29:3657" ph="..." />
+            <marker date="1495611570133" expanded="true" signature="66:3435" ph="..." />
+            <marker date="1495611570133" expanded="true" signature="105:2133" ph="..." />
+            <marker date="1495611570133" expanded="true" signature="223:1043" ph="..." />
+            <marker date="1495611570133" expanded="true" signature="938:1024" ph="..." />
+            <marker date="1495611570133" expanded="false" signature="985:992" ph="×" />
+            <marker date="1495611570133" expanded="true" signature="1172:2001" ph="..." />
+            <marker date="1495611570133" expanded="true" signature="1896:1982" ph="..." />
+            <marker date="1495611570133" expanded="false" signature="1943:1950" ph="×" />
+            <marker date="1495611570133" expanded="true" signature="2172:2753" ph="..." />
+            <marker date="1495611570133" expanded="true" signature="2279:2410" ph="..." />
+            <marker date="1495611570133" expanded="true" signature="2464:2570" ph="..." />
+            <marker date="1495611570133" expanded="true" signature="2624:2738" ph="..." />
+            <marker date="1495611570133" expanded="true" signature="2792:3424" ph="..." />
+            <marker date="1495611570133" expanded="true" signature="2901:3409" ph="..." />
+            <marker date="1495611570133" expanded="true" signature="2951:3129" ph="..." />
+            <marker date="1495611570133" expanded="true" signature="3179:3390" ph="..." />
+            <marker date="1495611570133" expanded="true" signature="3467:3647" ph="..." />
+            <marker date="1495611570133" expanded="true" signature="3520:3636" ph="..." />
+            <marker date="1495611570133" expanded="true" signature="3553:3621" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/menu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/autoevaluer.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/menus.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        <state relative-caret-position="612">
+          <caret line="36" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompetenceBundle/Resources/views/Pages/login.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="121" lean-forward="false" selection-start-line="3" selection-start-column="121" selection-end-line="3" selection-end-column="121" />
-          <folding>
-            <element signature="e#1112#1134#0#HTML" expanded="true" />
-          </folding>
+          <caret line="3" column="73" lean-forward="false" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>

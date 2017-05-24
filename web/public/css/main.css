@@ -84,7 +84,7 @@ h1, p {
 }
 .login {
     margin-top:20%;
-    margin-bottom:25%;
+    margin-bottom:30%;
     border:1px solid #eee;
     background: #e0e0e0;
     box-shadow: 0 0 20px #555 !important;
@@ -152,3 +152,11 @@ td {
 .fade {
     opacity: 1;
 }
+#bg_login {
+    background:url('https://cdn2.vox-cdn.com/uploads/chorus_asset/file/6323691/Dark_Souls_3_concept_art.0.jpg');
+}
+.hideme {
+    opacity: 0;
+}
+
+

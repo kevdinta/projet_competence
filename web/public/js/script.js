@@ -1,7 +1,6 @@
 /**
  * Created by Kevin on 17/05/2017.
  */
-
 let inc = 2
 // Au clic de "Add cpt"
 $("#addCpt").click(function() {
@@ -20,7 +19,6 @@ $("#addCpt").click(function() {
     // Permet de lier le remove à l'input, mettre le content dans la div divcpt
     $("#divCpt").append(elem).append(removeLink)
 })
-
 function InitializeSearch() {
     let input
     input = document.querySelector("#search")
@@ -61,3 +59,18 @@ $(function () // on document.ready() - Execute la boucle if quand la page entiè
         DisplayBloc()
     }
 })
+$(document).ready(function() {
+    /* A chaque fois que ça scroll */
+    $(window).scroll( function(){
+        /* On vérifie pour chaque élément de classe hideme sa position */
+        $('.hideme').each( function(i){
+
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height() + 300;
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                $(this).animate({'opacity':'1'},500);
+            }
+        });
+    });
+});
