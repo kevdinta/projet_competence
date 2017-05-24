@@ -56,6 +56,12 @@ class MainController extends Controller
             ->render('CompetenceBundle:Pages:autoevaluer.html.twig');
         return new Response($content);
     }
+    public function evaluer_simplementAction()
+    {
+        $content = $this->get('templating')
+            ->render('CompetenceBundle:Pages:evaluer_simplement.html.twig');
+        return new Response($content);
+    }
     /*
     public function menuAction()
     {

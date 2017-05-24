@@ -59,7 +59,7 @@ $(function () // on document.ready() - Execute la boucle if quand la page entiè
         DisplayBloc()
     }
 })
-$(document).ready(function() {
+$(document).ready(function test() {
     /* A chaque fois que ça scroll */
     $(window).scroll( function(){
         /* On vérifie pour chaque élément de classe hideme sa position */
@@ -68,7 +68,7 @@ $(document).ready(function() {
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height() + 200;
             /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
+            if( bottom_of_window > bottom_of_object && $('div').is('#bloc_accueil') ){
                 $(this).animate({'opacity':'1'},500);
             }
         });

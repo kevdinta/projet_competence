@@ -10,7 +10,8 @@
                 <li class="{% if app.request.attributes.get('_route') == 'bilan' %}active{% endif %}"><a href="/bilan"><i class="fa fa-2x fa-book icon"></i>Bilan Prof</a></li>
                 <li class="{% if app.request.attributes.get('_route') == 'bilan_eleve' %}active{% endif %}"><a href="/bilan_eleve"><i class="fa fa-2x fa-bookmark icon"></i>Bilan Eleve</a></li>
                 <li class="{% if app.request.attributes.get('_route') == 'autoevaluer' %}active{% endif %}"><a href="/autoevaluer"><i class='fa fa-2x fa-eye icon'></i>S'autoévaluer</a></li>
-                <li class="{% if app.request.attributes.get('_route') == 'evaluer' %}active{% endif %}"><a href="/evaluer"><i class="fa fa-2x fa-address-book icon"></i>Evaluer</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'evaluer' %}active{% endif %}"><a href="/evaluer"><i class="fa fa-2x fa-address-card icon"></i> Evaluer</a></li>
+                <li class="{% if app.request.attributes.get('_route') == 'evaluer_simplement' %}active{% endif %}"><a href="/evaluer_simplement"><i class="fa fa-2x fa-address-book icon"></i>Evaluer simplement</a></li>
                 <li class="{% if app.request.attributes.get('_route') == 'creer_epreuve' %}active{% endif %}"><a href="/creer_epreuve"><i class="fa fa-2x fa-folder-open-o"></i>Créer épreuve</a></li>
                 <li class="{% if app.request.attributes.get('_route') == 'ajouter_competence' %}active{% endif %}"><a href="/ajouter_competence"><i class="fa fa-2x fa-file-code-o icon"></i>Ajouter compétence</a></li>
                 <li class="{% if app.request.attributes.get('_route') == 'deconnexion' %}active{% endif %}"><a href="/login"><i class="fa fa-2x fa-sign-out icon"></i>Se déconnecter</a></li>
@@ -25,6 +26,7 @@
             {% if app.request.attributes.get('_route') == 'bilan_eleve' %}<span class="page">Bilan Eleve</span>{% endif %}
             {% if app.request.attributes.get('_route') == 'autoevaluer' %}<span class="page">S'autoévaluer</span>{% endif %}
             {% if app.request.attributes.get('_route') == 'evaluer' %}<span class="page">Evaluer</span>{% endif %}
+            {% if app.request.attributes.get('_route') == 'evaluer_simplement' %}<span class="page">Evaluer</span>{% endif %}
             {% if app.request.attributes.get('_route') == 'creer_epreuve' %}<span class="page">Créer épreuve</span>{% endif %}
             {% if app.request.attributes.get('_route') == 'ajouter_competence' %}<span class="page">Ajouter compétence</span>{% endif %}
             {% if app.request.attributes.get('_route') == 'deconnexion' %}<span class="page">Se déconnecter</span>{% endif %}

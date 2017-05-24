@@ -25,3 +25,6 @@ ajouter_competence:
 autoevaluer:
     path:    /autoevaluer
     defaults: { _controller: CompetenceBundle:Main:auto_evaluation }
+evaluer_simplement:
+    path:    /evaluer_simplement
+    defaults: { _controller: CompetenceBundle:Main:evaluer_simplement }
