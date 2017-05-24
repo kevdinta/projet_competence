@@ -1,4 +1,3 @@
-projet_competence
+Projet Web & Bdd - Gestion des apprentissages 3-CSi 2017
 =================
 
-A Symfony project created on May 12, 2017, 12:46 pm.
