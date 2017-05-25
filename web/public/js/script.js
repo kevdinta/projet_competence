@@ -10,7 +10,7 @@ $("#addCpt").click(function() {
         id: inc++,
         placeholder:"Votre nouvelle compétence..."
     })
-    let removeLink = $("<button>").html("Retirer").addClass("button columns row").click(function(){
+    let removeLink = $("<button>").html("Retirer").addClass("button columns row ").click(function(){
         // Supprime l'input text
         $(elem).remove()
         // Supprime le bouton supprimer
