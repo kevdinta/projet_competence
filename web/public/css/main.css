@@ -160,5 +160,18 @@ td {
     top:0;
     z-index: 1;
 }
+body::-webkit-scrollbar-track
+{
+    background-color: #F5F5F5;
+}
+/* Largeur du scroll */
+body::-webkit-scrollbar
+{
+    width: 0.5%;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #2c3e50;
+}
 
 
