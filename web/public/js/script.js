@@ -117,4 +117,14 @@ $(document).ready(() => {
             }
         })
     })
+    $("#checkbox").click(function(){
+        if($("#checkbox").is(':checked') ){
+            $("#etudiant > option").prop("selected","selected")
+            $("#etudiant").trigger("change")
+        }else{
+            $("#etudiant > option").prop("selected", false)
+            // permet de déclencher l'event change du select appelé étudiant
+            $("#etudiant").trigger("change")
+        }
+    })
 })

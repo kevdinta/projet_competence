@@ -24,6 +24,7 @@ class MainController extends Controller
     {
         $content = $this->get('templating')
             ->render('CompetenceBundle:Pages:bilan.html.twig');
+
         return new Response($content);
     }
     public function bilan_eleveAction()
