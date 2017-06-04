@@ -20,4 +20,3 @@ Quant à l'apprenant, il pourra s'autoévaluer et dispose également d'une page 
 
 *Ce projet est en cours de réalisation...*
 
-### Je tenais à dire également PCMUSTARDRICE > CONSOLEPEASANT
