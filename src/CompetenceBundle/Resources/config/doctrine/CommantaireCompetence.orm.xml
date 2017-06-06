@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="CompetenceBundle\Entity\CommantaireCompetence" table="commantaire_competence">
+    <indexes>
+      <index name="FK_commantaire_competence_id_competence" columns="id_competence"/>
+    </indexes>
+    <id name="idCommentairecompetence" type="integer" column="id_commentaireCompetence">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="commentaire" type="text" column="commentaire" length="65535" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="idCompetence" type="integer" column="id_competence" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+  </entity>
+</doctrine-mapping>

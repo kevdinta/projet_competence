@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="CompetenceBundle\Entity\Groupe" table="groupe">
+    <indexes>
+      <index name="FK_groupe_id_annee" columns="id_annee"/>
+      <index name="FK_groupe_id_diplome" columns="id_diplome"/>
+    </indexes>
+    <id name="idGroupe" type="integer" column="id_groupe">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="nomGroupe" type="string" column="nom_groupe" length="25" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="idAnnee" type="integer" column="id_annee" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="idDiplome" type="integer" column="id_diplome" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+  </entity>
+</doctrine-mapping>

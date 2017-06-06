@@ -1,0 +1,42 @@
+{% extends "CompetenceBundle::layout.html.twig" %}
+{% block content %}
+    <div class="header_page">
+        <div class="row">
+            <div class="section">
+                <div class="section-text">
+                    <h1>Evaluer simplement</h1>
+                    <p>Cette page permet d'évaluer un apprenant sans nécéssairement créer une épreuve.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container_page">
+        <div class="row">
+            <div class="large-12 columns">
+                <label>
+                    Matiere
+                    <select class="select2">
+                        <option value=""></option>
+                    </select>
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <!-- les competences display via la page Ajouter compétence -->
+                <label>
+                    Competences
+                    <select class="select2" multiple="multiple">
+                        <option value=""></option>
+                    </select>
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <br>
+                <input type="submit" value="Créer" name="creer" class="button">
+            </div>
+        </div>
+    </div>
+{% endblock %}

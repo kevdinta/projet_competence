@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="CompetenceBundle\Entity\Epreuve" table="epreuve">
+    <indexes>
+      <index name="fk_epreuve_users1_idx" columns="users_id"/>
+    </indexes>
+    <id name="idEpreuve" type="integer" column="id_epreuve">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="dateEpreuve" type="date" column="date_epreuve" nullable="true"/>
+    <field name="usersId" type="integer" column="users_id" nullable="false">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+  </entity>
+</doctrine-mapping>

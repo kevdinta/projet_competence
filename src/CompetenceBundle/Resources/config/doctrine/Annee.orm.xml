@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="CompetenceBundle\Entity\Annee" table="annee">
+    <id name="idAnnee" type="integer" column="id_annee">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="dateDebut" type="date" column="date_debut" nullable="false"/>
+    <field name="dateFin" type="date" column="date_fin" nullable="false"/>
+    <field name="intitule" type="string" column="intitule" length="50" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+  </entity>
+</doctrine-mapping>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="CompetenceBundle\Entity\Suivre" table="suivre">
+    <indexes>
+      <index name="FK_suivre_id_matiere" columns="id_matiere"/>
+      <index name="FK_suivre_id_groupe" columns="id_groupe"/>
+    </indexes>
+    <id name="id" type="integer" column="id"/>
+    <id name="idGroupe" type="integer" column="id_groupe"/>
+    <id name="idMatiere" type="integer" column="id_matiere"/>
+  </entity>
+</doctrine-mapping>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="CompetenceBundle\Entity\Competence" table="competence">
+    <indexes>
+      <index name="FK_competence_id_groupeCompetence" columns="id_groupeCompetence"/>
+    </indexes>
+    <id name="idCompetence" type="integer" column="id_competence">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="nomCompetence" type="string" column="nom_competence" length="100" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="idGroupecompetence" type="integer" column="id_groupeCompetence" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+  </entity>
+</doctrine-mapping>
