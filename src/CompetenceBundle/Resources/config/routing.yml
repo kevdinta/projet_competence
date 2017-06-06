@@ -1,9 +1,6 @@
 competence_homepage:
     path:     /
     defaults: { _controller: CompetenceBundle:Main:index }
-menu:
-    path:    /
-    defaults: { _controller: CompetenceBundle:Main:menu }
 bilan:
     path:    /bilan
     defaults: { _controller: CompetenceBundle:Main:bilan }
@@ -25,3 +22,9 @@ ajouter_competence:
 autoevaluer:
     path:    /autoevaluer
     defaults: { _controller: CompetenceBundle:Main:auto_evaluation }
+evaluer_simplement:
+    path:    /evaluer_simplement
+    defaults: { _controller: CompetenceBundle:Main:evaluer_simplement }
+menu_t:
+    path:    /menu
+    defaults: { _controller: CompetenceBundle:Main:menu }

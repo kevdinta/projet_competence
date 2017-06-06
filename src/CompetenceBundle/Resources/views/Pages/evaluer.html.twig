@@ -25,15 +25,45 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class="large-12 columns">
+                        <label>
+                            Etudiants
+                            <select class="select2" multiple="multiple" id="etudiant">
+                                <option value=""></option>
+                                <option value="etudiant">etudiant1</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-12 columns">
+                        <input type="checkbox" id="checkbox" >
+                        <label for="checkbox" id="label_chk">Sélectionner/Déselectionner <strong>tous</strong> les étudiants.</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-12 columns">
+                        <input type="submit" value="Consulter" name="Consulter" class="button">
+                    </div>
+                </div>
+                <div class="row">
+                    <br>
+                    <div class="large-12 columns">
+                        <input type="search" id="search" placeholder="Rechercher...">
+                    </div>
+                </div>
+                <div class="row">
                     <div class="large-12 columns" id="bloc_eval" style="display: none;">
                         <!-- Mettre un include ici de ton code pour afficher les valeurs figurant dans la database. -->
-                        <p>BLOC D'EVALUATION A REALISER J'AI LA FLEMME POUR L'INSTANT.</p>
                         <table>
                             <thead>
                             <tr>
+                                <th colspan="3" style="text-align: center;">@Nom de l'étudiant</th>
+                            </tr>
+                            <tr>
                                 <th>Nom de la compétence</th>
                                 <th>Note</th>
-                                <th>Autoévaluation</th>
+
                             </tr>
                             </thead>
                             <tbody>
@@ -48,25 +78,17 @@
                                         <option value="5">Dieu</option>
                                     </select>
                                 </td>
-                                <td>
-                                    <select id="example2">
-                                        <option value="1">A chier</option>
-                                        <option value="2">Toujours nul</option>
-                                        <option value="3">Potable</option>
-                                        <option value="4">Cool</option>
-                                        <option value="5">Dieu</option>
-                                    </select>
-                                </td>
+
                             </tr>
                             <tr>
                                 <td>Notions d'héritage en Java</td>
                                 <td></td>
-                                <td></td>
+
                             </tr>
                             <tr>
                                 <td>Serialisation en C#</td>
                                 <td></td>
-                                <td></td>
+
                             </tr>
                             </tbody>
                         </table>
