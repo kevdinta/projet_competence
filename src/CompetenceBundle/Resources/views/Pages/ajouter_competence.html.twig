@@ -16,8 +16,11 @@
                 <label>
                     Matière :
                     <select class="select2">
-                        <option selected value="valeur_brute">Valeur 1</option>
-                        <option value="v2">Valeur 2</option>
+                        {% for matiere in matieres %}
+
+                            <option value="{{ matiere['id']}}">{{ matiere['nom'] }}</option>
+
+                        {% endfor %}
                     </select>
                 </label>
             </div>

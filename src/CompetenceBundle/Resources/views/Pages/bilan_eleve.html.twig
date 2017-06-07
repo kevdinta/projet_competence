@@ -1,5 +1,12 @@
 {% extends "CompetenceBundle::layout.html.twig" %}
 {% block content %}
+
+    <script>
+
+            let a = {{ path('bilen_eleve_gen')}};
+            console.log(a);
+
+    </script>
     <div class="header_page">
         <div class="row">
             <div class="section">
@@ -15,8 +22,12 @@
             <div class="large-12 columns">
                 <label>
                     Matiere
-                    <select class="select2">
-                        <option value=""></option>
+                    <select class="select2" id="sMatiere">
+                        {% for matiere in matieres %}
+
+                            <option value="{{ matiere['id']}}">{{ matiere['nom'] }}</option>
+
+                        {% endfor %}
                     </select>
                 </label>
             </div>

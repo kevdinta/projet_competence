@@ -18,8 +18,12 @@
                             Choisissez une épreuve *
                             <p class="help-text" id="epreuveHelpTxt">A la sélection, génère le bloc d'évaluation.</p>
                             <select id="epreuve" required aria-describedby="epreuveHelpTxt">
-                                <option value=""></option>
-                                <option value="BTS_SN">BTS SN</option>
+                                <option selected value =''>  </option>
+                                {% for epreuve in epreuves %}
+
+                                    <option value="{{ epreuve['id']}}">{{ epreuve['date'] }}</option>
+
+                                {% endfor %}
                             </select>
                         </label>
                     </div>
@@ -29,8 +33,11 @@
                         <label>
                             Etudiants
                             <select class="select2" multiple="multiple" id="etudiant">
-                                <option value=""></option>
-                                <option value="etudiant">etudiant1</option>
+                                {% for etudiant in etudiants %}
+
+                                    <option value="{{ etudiant['id']}}">{{ etudiant['nom'] }} {{ etudiant['prenom'] }}</option>
+
+                                {% endfor %}
                             </select>
                         </label>
                     </div>

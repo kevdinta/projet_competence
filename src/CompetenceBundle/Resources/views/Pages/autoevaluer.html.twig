@@ -16,9 +16,11 @@
                 <label>
                     Matiere
                     <select class="select2">
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
+                        {% for matiere in matieres %}
+
+                            <option value="{{ matiere['id']}}">{{ matiere['nom'] }}</option>
+
+                        {% endfor %}
                     </select>
                 </label>
             </div>

@@ -1,5 +1,8 @@
 {% extends "CompetenceBundle::layout.html.twig" %}
+
 {% block content %}
+
+
     <div class="header_page">
         <div class="row">
             <div class="section">
@@ -24,21 +27,11 @@
                     Competences
                     <p class="help-text" id="competenceHelpTxt">Cliquez sur le rectangle puis écrivez le nom de la compétence. Ensuite, appuyez sur entrée pour insérer une compétence.</p>
                     <select class="select2" multiple aria-describedby="competenceHelpTxt">
-                        <option selected>T1</option>
-                        <option>T2</option>
-                        <option>X</option>
-                        <option>T2</option>
-                        <option>X</option>
-                        <option>T2</option>
-                        <option>X</option>
-                        <option>T2</option>
-                        <option>X</option>
-                        <option>T2</option>
-                        <option>X</option>
-                        <option>T2</option>
-                        <option>X</option>
-                        <option>T2</option>
-                        <option>X</option>
+                        {% for competence in competences %}
+
+                            <option value="{{ competence['id']}}">{{ competence['nom'] }}</option>
+
+                        {% endfor %}
                     </select>
                 </label>
             </div>
@@ -49,8 +42,12 @@
                 <label>
                     Classe
                     <select class="select2">
-                        <option>Value 1</option>
-                        <option selected>Value 2</option>
+                        <option selected value=""> Choisissez une classe</option>
+                        {% for classe in classes %}
+
+                            <option value="{{ classe['id']}}">{{ classe['nom'] }}</option>
+
+                        {% endfor %}
                     </select>
                 </label>
             </div>
@@ -64,3 +61,7 @@
     </div>
 
 {% endblock %}
+
+
+
+

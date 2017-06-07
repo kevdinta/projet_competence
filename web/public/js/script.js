@@ -82,6 +82,34 @@ function InitializeSearch() {
         }
     })
 }
+
+
+function GBilanEleve(){
+
+    console.log($('#sMatiere').val())
+
+
+
+    $.ajax({
+        type : 'POST', // Le type de la requête HTTP, ici devenu POST
+
+        url : "bilan_eleve_test",
+
+
+        dataType : 'html',
+        success: function (data) {
+
+
+           alert(data)
+        }
+
+    });
+
+
+}
+
+
+
 /* Fonction qui affiche div ou la cache si la value est différente */
 function DisplayBloc() {
     let inputDisplay
@@ -97,7 +125,9 @@ $(function () // on document.ready() - Execute la boucle if quand la page entiè
     /* Permet d'exécuter une fonction si le selecteur est trouvé */
     if ($('table#data_bilan_eleve').length > 0)
     {
-        InitializeSearch()
+        InitializeSearch();
+
+        $('#sMatiere').change(GBilanEleve);
     }
     if ($('select#epreuve').length > 0)
     {

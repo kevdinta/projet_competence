@@ -1,4 +1,7 @@
 {% extends "CompetenceBundle::layout.html.twig" %}
+{% block javascripts %}
+    <script > alert('kapa');</script>
+{% endblock %}
 {% block content %}
     <div class="header_page">
         <div class="row">
@@ -12,17 +15,6 @@
     </div>
 
     <div class="container_page">
-        <div class="row">
-            <div class="large-6 columns">
-                <select name="test">
-                    {% for i in matieres %}
-
-                        <option value="{{ i }}">{{ i }}</option>
-
-                    {% endfor %}
-                </select>
-            </div>
-        </div>
         <div class="row" style="display: none;">
             <div class="large-6 columns">
                 <label>
@@ -40,8 +32,11 @@
                 <label>
                     Matière
                     <select class="select2">
-                        <option value="matiere">Matiere 1</option>
-                        <option value="matiere2">Matiere 2</option>
+                        {% for matiere in matieres %}
+
+                            <option value="{{ matiere['id']}}">{{ matiere['nom'] }}</option>
+
+                        {% endfor %}
                     </select>
                 </label>
             </div>
@@ -50,8 +45,11 @@
             <div class="large-12 columns">
                 <label>Etudiants
                     <select class="select2" multiple="multiple" id="etudiant">
-                        <option value=""></option>
-                        <option value="matiere2">Matiere 2</option>
+                        {% for etudiant in etudiants %}
+
+                            <option value="{{ etudiant['id']}}">{{ etudiant['nom'] }} {{ etudiant['prenom'] }}</option>
+
+                        {% endfor %}
                     </select>
                 </label>
             </div>

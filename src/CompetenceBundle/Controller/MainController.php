@@ -45,16 +45,17 @@ class MainController extends Controller
 
         //Liste des matières
         $matieres =  $this->getListeMatiere();
-        var_dump($matieres);
-        //J'utilise var_dump pour afficher les valeur de la variable sur le template
+
+        $etudiants = $this->getListeEtudiant();
+        //Il faudra passer en parametre l'ID user du prof
 
 
 
-        //Si j'arrive a passer la variable contenant tout les nom au template
-        //On boucle dans le twig (Comme dans l'exemple menu.html.twig)
+
+
 
         $content = $this->get('templating')
-            ->render('CompetenceBundle:Pages:bilan.html.twig', array( 'matieres' => $matieres));
+            ->render('CompetenceBundle:Pages:bilan.html.twig', array( 'matieres' => $matieres, 'etudiants' => $etudiants));
         return new Response($content);
     }
 
@@ -63,24 +64,49 @@ class MainController extends Controller
     public function getListeMatiere()
     {
         $dbh = $this->dbConnect();
-        $liste ="";
+
+        $res = $dbh->query("SELECT nom_matiere, id_matiere FROM matiere");
+        while ($row = $res->fetch(PDO::FETCH_ASSOC)) {
+
+            $liste[] = array( "nom"   => $row['nom_matiere'],
+                              "id"    => $row['id_matiere']);
+        }
+
+        return $liste;
 
 
-        $sth = $dbh->prepare("SELECT nom_matiere FROM matiere");
-        $sth->execute();
+    }
 
-        /* Récupération de toutes les lignes d'un jeu de résultats */
-        $result = $sth->fetchAll(PDO::FETCH_COLUMN, 0);
-        /*foreach( $result as $matiere) {
+    public function getListeEtudiant(){
+        $dbh = $this->dbConnect();
+        //Recupere les matiere dans lesquelle intervient le prof
 
-            $liste .= "<option> $matiere </option>";
+        $res1 = $dbh->query("   SELECT id_matiere
+                                          FROM intervient
+                                          WHERE id_intervenant = 0 "); // = $idProf;
+        while ($row1 = $res1->fetch(PDO::FETCH_ASSOC)){
+            $matiere = $row1['id_matiere'];
+
+            //Recup les groupes qui suivent la matiere du prof
+
+            $res2 = $dbh->query(" SELECT id_groupe
+                                            FROM suivre
+                                            WHERE id_matiere = $matiere ");
+
+            //Recup les id des eleves des groupes
+
+            $res3 = $dbh->query( "SELECT DISTINCT users.id, nom, prenom
+                                            FROM users
+                                            INNER JOIN appartenir WHERE users.id = appartenir.users_id ");
+            while($row3 = $res3->fetch(PDO::FETCH_ASSOC)){
+                $eleves[] = array('id'       => $row3['id'],
+                                  'nom'      => $row3['nom'],
+                                  'prenom'   => $row3['prenom']);
+            }
 
         }
 
-        return $liste;*/
-
-        return $result;
-
+        return $eleves;
 
     }
 
@@ -91,8 +117,10 @@ class MainController extends Controller
 
     public function bilan_eleveAction()
     {
+        $matieres =  $this->getListeMatiere();
+
         $content = $this->get('templating')
-            ->render('CompetenceBundle:Pages:bilan_eleve.html.twig');
+            ->render('CompetenceBundle:Pages:bilan_eleve.html.twig', array('matieres' => $matieres));
 
 
         return new Response($content);
@@ -106,33 +134,148 @@ class MainController extends Controller
 
     public function evaluerAction()
     {
+        $epreuves = $this->getListeEpreuve();
+
+        $etudiants = $this->getListeEtudiant();
+
         $content = $this->get('templating')
-            ->render('CompetenceBundle:Pages:evaluer.html.twig');
+            ->render('CompetenceBundle:Pages:evaluer.html.twig', array('epreuves'=> $epreuves, 'etudiants' => $etudiants));
         return new Response($content);
     }
+
+    public function getListeEpreuve(){
+        $dbh = $this->dbConnect();
+        $res = $dbh->query('  SELECT id_epreuve, date_epreuve 
+                                        FROM epreuve');
+        while($row = $res->fetch(PDO::FETCH_ASSOC)){
+
+
+            $date =  date('d-m-Y', strtotime($row['date_epreuve']));
+
+            $epreuves[] = array(
+                'id'      => $row['id_epreuve'],
+                'date'   => $date);
+        }
+
+        return $epreuves;
+
+
+
+    }
+
+    public function test(){
+        var_dump('aaaaaaaaaaaaaaaaaa');
+    }
+
+
+
+
     public function creer_epreuveAction()
     {
+        $competences = $this->getCompetences();
+
+        $classes = $this->getAllClasses();
+
         $content = $this->get('templating')
-            ->render('CompetenceBundle:Pages:creer_epreuve.html.twig');
+            ->render('CompetenceBundle:Pages:creer_epreuve.html.twig', array('competences' => $competences, 'classes' => $classes));
         return new Response($content);
     }
+
+    public function getAllClasses(){
+        $dbh = $this->dbConnect();
+        $res = $dbh->query("SELECT nom_groupe, id_groupe
+                                      FROM groupe");
+
+        while ($row = $res->fetch(PDO::FETCH_ASSOC)) {
+
+            $liste[] = array(   "nom"   => $row['nom_groupe'],
+                "id"    => $row['id_groupe']);
+        }
+
+        return $liste;
+
+    }
+
+
+
+
+
+
+
+
+
     public function ajouter_competenceAction()
     {
+        $matieres = $this->getListeMatiere();
         $content = $this->get('templating')
-            ->render('CompetenceBundle:Pages:ajouter_competence.html.twig');
+            ->render('CompetenceBundle:Pages:ajouter_competence.html.twig',array( 'matieres' => $matieres));
         return new Response($content);
     }
+
+    public function getGroupesCompetence($idMatiere){
+        $dbh = $this->dbConnect();
+        $res = $dbh->query("SELECT nom_groupe, id_groupeCompetence 
+                                      FROM groupe_competence
+                                      WHERE id_matiere = $idMatiere");
+
+        while ($row = $res->fetch(PDO::FETCH_ASSOC)) {
+
+            $liste[] = array(   "nom"   => $row['nom_groupe'],
+                                "id"    => $row['id_groupeCompetence']);
+        }
+
+        return $liste;
+
+
+    }
+
+
+
+
+
+
+
     public function auto_evaluationAction()
     {
+        $matieres =  $this->getListeMatiere();
+
         $content = $this->get('templating')
-            ->render('CompetenceBundle:Pages:autoevaluer.html.twig');
+            ->render('CompetenceBundle:Pages:autoevaluer.html.twig', array('matieres' => $matieres));
         return new Response($content);
     }
+
+
+
     public function evaluer_simplementAction()
     {
+
+        $matieres =  $this->getListeMatiere();
+
+        $etudiants = $this->getListeEtudiant();
+
+        $competences = $this->getCompetences();
+
         $content = $this->get('templating')
-            ->render('CompetenceBundle:Pages:evaluer_simplement.html.twig');
+            ->render('CompetenceBundle:Pages:evaluer_simplement.html.twig', array('matieres' => $matieres, 'etudiants' => $etudiants, 'competences' => $competences));
         return new Response($content);
+    }
+
+
+    public function getCompetences(){
+        $dbh = $this->dbConnect();
+
+        $res = $dbh->query("SELECT id_competence, nom_competence 
+                                      FROM competence");
+
+        while ($row = $res->fetch(PDO::FETCH_ASSOC)) {
+
+            $liste[] = array(   "nom"   => $row['nom_competence'],
+                "id"    => $row['id_competence']);
+        }
+
+        return $liste;
+
+
     }
 
     public function menuAction()

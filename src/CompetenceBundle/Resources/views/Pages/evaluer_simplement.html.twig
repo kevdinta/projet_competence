@@ -14,9 +14,28 @@
         <div class="row">
             <div class="large-12 columns">
                 <label>
+                    Etudiant
+                    <select class="select2">
+                        {% for etudiant in etudiants %}
+
+                            <option value="{{ etudiant['id']}}">{{ etudiant['nom'] }} {{ etudiant['prenom'] }}</option>
+
+                        {% endfor %}
+                    </select>
+                </label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 columns">
+                <label>
                     Matiere
                     <select class="select2">
-                        <option value=""></option>
+                        {% for matiere in matieres %}
+
+                            <option value="{{ matiere['id']}}">{{ matiere['nom'] }}</option>
+
+                        {% endfor %}
                     </select>
                 </label>
             </div>
@@ -27,7 +46,11 @@
                 <label>
                     Competences
                     <select class="select2" multiple="multiple">
-                        <option value=""></option>
+                        {% for competence in competences %}
+
+                            <option value="{{ competence['id']}}">{{ competence['nom'] }}</option>
+
+                        {% endfor %}
                     </select>
                 </label>
             </div>

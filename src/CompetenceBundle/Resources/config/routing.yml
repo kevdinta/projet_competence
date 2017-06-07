@@ -28,3 +28,7 @@ evaluer_simplement:
 menu_t:
     path:    /menu
     defaults: { _controller: CompetenceBundle:Main:menu }
+
+bilen_eleve_gen:
+    path: /bilan_eleve_test
+    defaults: { _controller: CompetenceBundle:Main:test }
