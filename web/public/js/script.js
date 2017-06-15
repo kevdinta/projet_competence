@@ -82,14 +82,11 @@ function InitializeSearch() {
         }
     })
 }
-
+$('#sMatiere').change(GBilanEleve);
 
 function GBilanEleve(){
 
-    console.log($('#sMatiere').val())
-
-
-
+   console.log($('#sMatiere').val())
     $.ajax({
         type : 'POST', // Le type de la requête HTTP, ici devenu POST
 
@@ -102,10 +99,7 @@ function GBilanEleve(){
 
            alert(data)
         }
-
     });
-
-
 }
 
 

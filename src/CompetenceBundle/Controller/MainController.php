@@ -163,8 +163,14 @@ class MainController extends Controller
 
     }
 
-    public function test(){
+    public function testAction(){
         var_dump('aaaaaaaaaaaaaaaaaa');
+
+        /*
+        $content = $this->get('templating')
+            ->render('CompetenceBundle:Pages:test.html.twig');
+        return new Response($content);
+        */
     }
 
 
@@ -191,9 +197,7 @@ class MainController extends Controller
             $liste[] = array(   "nom"   => $row['nom_groupe'],
                 "id"    => $row['id_groupe']);
         }
-
         return $liste;
-
     }
 
 
@@ -272,12 +276,8 @@ class MainController extends Controller
             $liste[] = array(   "nom"   => $row['nom_competence'],
                 "id"    => $row['id_competence']);
         }
-
         return $liste;
-
-
     }
-
     public function menuAction()
     {
         $listMenu = array(
